@@ -75,6 +75,8 @@ public class calculadora {
                 break;
             default:
                 System.out.println("La operación no se reconoce. Repite la entrada.");
+                
+                System.out.println("Prueba despligue");
                 result = calc(num1, num2, getOperation());
         }
         return result;
