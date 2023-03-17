@@ -55,14 +55,14 @@ public class calculadora {
  * 
  * @return result
  * @param operation signo que realizara la operacion
- * @param num2 segundo numero introducido
+ * @param num segundo numero introducido
  * @param num1 primer numero introducido*/
 
     public static int calc(int num1, int num2, char operation){
         int result;
         switch (operation){
             case '+':
-                result = num1+n;
+                result = num1+num2;
                 break;
             case '-':
                 result = num1-num2;
