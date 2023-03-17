@@ -15,7 +15,7 @@ public class calculador {
         int num2 = getInt();
         char operation = getOperation();
         int result = calc(num1,num2,operation);
-        System.out.println("El resultado de la operación: "+result);
+        System.out.println("El resultado de la operaciónes: "+result);
     }
     
     /**
